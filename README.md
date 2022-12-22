@@ -29,7 +29,7 @@ The site does not require installation steps.
 
 ## Usage 
 
-The website can be viewed at [https://bowseruk.github.io/Bootstrap-Portfolio/](https://bowseruk.github.io/Bootstrap-Portfolio/) with Google Chrome. The source can be viewed in Chrome by right clicking and selecting inspect.
+The website can be viewed at [https://bowseruk.github.io/bootstrap-portfolio/](https://bowseruk.github.io/bootstrap-portfolio/) with Google Chrome. The source can be viewed in Chrome by right clicking and selecting inspect.
 
 ![Screenshot of the Webpage](assets/images/screenshot.png)
 
