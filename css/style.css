@@ -1,3 +1,13 @@
 .top-nav-right {
     float: right;
 }
+
+.work-card {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#css-portfolio {
+    background-image: url(../images/css-portfolio.png);
+}
