@@ -1,13 +1,39 @@
-.top-nav-right {
-    float: right;
+body {
+    __banner_color: green;
 }
 
 .work-card {
     height: 300px;
     background-position: center;
     background-size: cover;
+    margin: 20px 5px;
+    border: 5px black solid;
 }
 
 #css-portfolio {
     background-image: url(../images/css-portfolio.png);
+}
+
+#travel-california {
+    background-image: url(../images/css-portfolio.png);
+}
+
+#css-cheatsheet {
+    background-image: url(../images/CSS_Cheatsheat.png);
+}
+
+#horiseon {
+    background-image: url(../images/Horiseon.png);
+}
+
+#landing-page {
+    background-image: url(../images/Landing_Page.png);
+}
+
+#zen-garden {
+    background-image: url(../images/CSS_Zen_Garden.png);
+}
+
+#prework-study-guide {
+    background-image: url(../images/Prework_Study_Guide.png);
 }
