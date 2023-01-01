@@ -9,7 +9,7 @@
   <!-- This is REQUIRED for bootstrap to work correctly -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -40,12 +40,87 @@
   <main>
     <!-- Jumbotron -->
     <div class="jumbotron" id="jumbotron">
-      <h1 class="HeroTitle">Front End Web Developer</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 mx-auto">
+            <img src="assets/images/headshot.jpg" alt="Adam's photo">
+          </div>
+          <div class="col-sm-12 col-lg-4 mx-auto d-flex flex-column justify-content-center align-items-center">
+            <h1 class="HeroTitle">Adam Bolsover</h1>
+          </div>
+          <div class="col-sm-12 col-lg-5 mx-auto d-flex flex-column justify-content-center align-items-center">
+            <h1 class="HeroTitle">Web Developer</h1>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+    <!-- Skills / About Me Section-->
+    <section class="about-section skills-section" id="Me">
+      <h2>Me</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Skills -->
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <div class="card me-card">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h3 class="text-uppercase">Skills</h3>
+                <ul>
+                  <li>Git</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript</li>
+                  <li>Python</li>
+                  <li>C</li>
+                  <li>Bash</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- About Me -->
+          <div class="col-lg-7 col-md-6 col-sm-12">
+            <div class="card me-card">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h3 class="text-uppercase" id="AboutMe">About Me</h3>
+                <p>My name is Adam Bolsover, and this page is a portfolio of some of my projects. I have used HTML, CSS
+                  and
+                  Javascript in the making of the projects listed below.</p>
+                <br />
+                <p>I have a master's degree in Chemistry, and also have experience in programming with C, Python and
+                  Bash. I have
+                  spent a decade in the print industry, learning things such as colour science.</p>
+                <br />
+                <p>This page uses my current favourite CSS property, Box SHadow that is removed on hover, which can be
+                  seen in the banner below the
+                  header of this page. This helps the pictures on the page blend with the colour scheme, but still be
+                  able to focus on the image when looking at it.</p>
+                <br />
+                <p>Outside of web development, I enjoy 3D Printing, Rock Climbing and Cycling.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Me -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card me-card">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h3 class="text-uppercase" id="ContactMe">Contact Me</h3>
+                <ul>
+                  <li><a href="tel:+447777777777">mobile</a></li>
+                  <li><a href="mailto:bowseruk@gmail.com">email</a></li>
+                  <li><a href="https://www.linkedin.com/in/adambolsover">LinkedIn</a></li>
+                  <li><a href="https://github.com/bowseruk">GitHub</a></li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Work Section -->
     <section id="Work">
       <h2>Work</h2>
@@ -71,7 +146,7 @@
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
                   <h3 class="text-uppercase">Travel California</h3>
-                  <p>This page was made to a wire frame using HTML, CSS and bootstrap</p>
+                  <p>This page was made to match a wire frame using HTML, CSS and Bootstrap</p>
                 </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/travel-california/"></a>
@@ -84,7 +159,7 @@
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
                   <h3 class="text-uppercase">CSS Cheatsheat</h3>
-                  <p>Page made with interesting CSS values</p>
+                  <p>This page was created from scratch to match a mockup using HTML and CSS.</p>
                 </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/css-cheatsheet/"></a>
@@ -97,7 +172,7 @@
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
                   <h3 class="text-uppercase">Horiseon</h3>
-                  <p>This page was editted for accessibility</p>
+                  <p>This page was modified to improve accessibility, and refactored.</p>
                 </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/horiseon/"></a>
@@ -109,8 +184,8 @@
             <div class="card work-card" id="landing-page">
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
-                <h3 class="text-uppercase">Landing Page</h3>
-                <p>A landing page made with HTML and CSS</p>
+                  <h3 class="text-uppercase">Landing Page</h3>
+                  <p>This landing page was created from scratch with HTML and CSS.</p>
                 </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/generic-landing-page/"></a>
@@ -124,9 +199,9 @@
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <!-- This label class is what the text appears against -->
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
-                <h3 class="text-uppercase">CSS Zen Garden</h3>
-                <p>An example of CSS</p>
-              </div>
+                  <h3 class="text-uppercase">CSS Zen Garden</h3>
+                  <p>CSS Zen Gardens Activity.</p>
+                </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/zen-garden/"></a>
               </div>
@@ -136,49 +211,11 @@
             <div class="card work-card" id="prework-study-guide">
               <div class="work-card-body card-body d-flex flex-column justify-content-center align-items-center">
                 <div class="work-label d-flex flex-column justify-content-center align-items-center">
-                <h3 class="text-uppercase">Pre Work Study Guide</h3>
-                <p>Study guide made using HTML, CSS and JavaScript</p>
-              </div>
+                  <h3 class="text-uppercase">Pre Work Study Guide</h3>
+                  <p>This page was created during the prework.</p>
+                </div>
                 <!-- Stretched link covers the whole card -->
                 <a class="stretched-link" href="https://bowseruk.github.io/prework-study-guide/"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Skills / About Me Section-->
-    <section class="about-section skills-section" id="Me">
-      <h2>Me</h2>
-      <div class="container-fluid">
-        <div class="row">
-          <!-- Skills -->
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h3 class="text-uppercase">Skills</h3>
-                <div><a href="mailto:hello@california.com">hello@california.com</a></div>
-              </div>
-            </div>
-          </div>
-          <!-- About Me -->
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h3 class="text-uppercase" id="AboutMe">About Me</h3>
-                <div><a href="mailto:hello@california.com">hello@california.com</a></div>
-              </div>
-            </div>
-          </div>
-          <!-- Contact Me -->
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h3 class="text-uppercase" id="ContactMe">Contact Me</h3>
-                <div><a href="mailto:hello@california.com">hello@california.com</a></div>
               </div>
             </div>
           </div>
@@ -188,9 +225,27 @@
   </main>
   <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; Copyright Adam Bolsover 2022</p>
-    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark" id="foot-nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">&copy; Copyright Adam Bolsover 2022</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 top-nav-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#Work">Work</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <p>&copy; Copyright Adam Bolsover 2022</p>
+        </div>
+      </div>
+    </div> -->
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
