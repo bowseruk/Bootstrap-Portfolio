@@ -89,6 +89,14 @@ main h2 {
     margin: 10px 0;
 }
 
+.me-card i {
+    color: var(--tertiary-color) !important;
+}
+
+.me-card i:hover {
+    color: var(--primary-color) !important;
+}
+
 /* Work section - most id specific part is to add designated images */
 .work-card {
     height: 300px;
@@ -146,12 +154,18 @@ main h2 {
     background-image: url("../images/Prework_Study_Guide.png");
 }
 
+#footer-fade {
+    height: 50px;
+    background-image: linear-gradient(var(--primary-color-light) 0%, var(--secondary-color) 100%);
+    margin-bottom: 0;
+}
+
 /* Footer */
 footer {
     background-color: var(--secondary-color);
     color: var(--secondary-color-light);
     height:40px;
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
 }
 
