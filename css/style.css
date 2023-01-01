@@ -7,7 +7,11 @@ body {
     background-position: center;
     background-size: cover;
     margin: 20px 5px;
-    border: 5px black solid;
+    border: 3px black solid;
+}
+
+.work-card:hover {
+    border: 3px grey solid;
 }
 
 #css-portfolio {
@@ -15,7 +19,7 @@ body {
 }
 
 #travel-california {
-    background-image: url(../images/css-portfolio.png);
+    background-image: url(../images/travel_california.png);
 }
 
 #css-cheatsheet {
