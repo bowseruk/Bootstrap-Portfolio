@@ -1,10 +1,29 @@
+/* Whole page settings */
 body {
-    --primary-color: green;
-    --primary-background-color: white;
-    --secondary-color: green;
-    --secondary-background-color: white;
-    --tertiary-color: green;
-    --tertiary-background-color: white;
+    --primary-color: #2b6777;
+    --primary-color-light: #c8d8e4;
+    --secondary-color: #52ab98;
+    --secondary-color-light: #f2f2f2;
+    --tertiary-color: #111111;
+    --tertiary-color-light: #ffffff;
+}
+
+/* Main header for the page */
+#main-nav {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-light);
+}
+/* Items on nav bar */
+#main-nav a {
+    color: var(--secondary-color-light);
+    padding:5px;
+}
+/* Items on nav bar */
+#main-nav a:hover {
+    color: var(--primary-color-light);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: 2px solid var(--primary-color-light);
 }
 
 .work-card {
