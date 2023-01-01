@@ -45,17 +45,21 @@ main {
     background-position: center;
     background-size: cover;
     margin: 20px 5px;
-    border: 3px black solid;
+    border: 3px var(--tertiary-color) solid;
 }
 
-.work-card:hover {
-    border: 3px grey solid;
+.work-card:hover, .work-card:hover .work-label {
+    border: 3px var(--tertiary-color-light) solid;
+    color: var(--tertiary-color-light);
+    background-color: var(--tertiary-color);
 }
 
 .work-label {
-    background-color: var(--secondary-color-light);
-    padding: 2px;
+    background-color: var(--tertiary-color-light);
+    color: var(--tertiary-color);
+    padding: 4px;
     border-radius: 5px;
+    border: 2px solid var(--tertiary-color);
 }
 
 #css-portfolio {
