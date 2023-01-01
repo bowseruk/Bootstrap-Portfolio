@@ -15,29 +15,29 @@ body {
 }
 
 #css-portfolio {
-    background-image: url(../images/css-portfolio.png);
+    background-image: url("../images/css-portfolio.png");
 }
 
 #travel-california {
-    background-image: url(../images/travel_california.png);
+    background-image: url("../images/travel_california.png");
 }
 
 #css-cheatsheet {
-    background-image: url(../images/CSS_Cheatsheat.png);
+    background-image: url("../images/CSS_Cheatsheat.png");
 }
 
 #horiseon {
-    background-image: url(../images/Horiseon.png);
+    background-image: url("../images/Horiseon.png");
 }
 
 #landing-page {
-    background-image: url(../images/Landing_Page.png);
+    background-image: url("../images/Landing_Page.png");
 }
 
 #zen-garden {
-    background-image: url(../images/CSS_Zen_Garden.png);
+    background-image: url("../images/CSS_Zen_Garden.png");
 }
 
 #prework-study-guide {
-    background-image: url(../images/Prework_Study_Guide.png);
+    background-image: url("../images/Prework_Study_Guide.png");
 }
