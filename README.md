@@ -5,11 +5,11 @@
 This project was created using HTML, CSS and Bootstrap to make a Portfolio Page. The project had the following requirements:
 
 * A Navigation bar
-    * A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
-    * Include links that are applicable to your portfolio.
+    * A navigation menu at the top.
+    * Include links that are applicable to my portfolio.
     * Links should navigate to the appropriate sections 
 * A hero section
-    * A jumbotron featuring your picture, your name, and any other information you'd like to include.
+    * A jumbotron featuring my picture, my name, and any other information I'd like to include.
 * A work section
     * A section displaying your work in grid. 
     * Use bootstrap cards for each project.
@@ -29,7 +29,7 @@ The site does not require installation steps.
 
 ## Usage 
 
-The website can be viewed at [https://bowseruk.github.io/Bootstrap-Portfolio/](https://bowseruk.github.io/Bootstrap-Portfolio/) with Google Chrome. The source can be viewed in Chrome by right clicking and selecting inspect.
+The website can be viewed at [https://bowseruk.github.io/bootstrap-portfolio/](https://bowseruk.github.io/bootstrap-portfolio/) with Google Chrome. The source can be viewed in Chrome by right clicking and selecting inspect.
 
 ![Screenshot of the Webpage](assets/images/screenshot.png)
 
