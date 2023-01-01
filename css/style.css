@@ -1,5 +1,10 @@
 body {
-    __banner_color: green;
+    --primary-color: green;
+    --primary-background-color: white;
+    --secondary-color: green;
+    --secondary-background-color: white;
+    --tertiary-color: green;
+    --tertiary-background-color: white;
 }
 
 .work-card {
