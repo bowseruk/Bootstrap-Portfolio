@@ -24,6 +24,7 @@ nav {
     color: var(--secondary-color-light);
 }
 
+/* This gives the brand a different color to the rest of the items */
 .navbar-brand {
     color: var(--primary-color-light) !important;
 }
@@ -51,6 +52,7 @@ nav a:hover {
     text-align: center;
 }
 
+/* Make the image circular and set size */
 #jumbotron img {
     width: 200px;
     height: 200px;
@@ -87,24 +89,25 @@ main h2 {
     margin: 10px 0;
 }
 
-/* Work section */
+/* Work section - most id specific part is to add designated images */
 .work-card {
     height: 300px;
     background-position: center;
     background-size: cover;
     margin: 20px 5px;
     border: 3px var(--tertiary-color) solid;
+    /* This makes the background image faded out */
     transition: all 0.5s ease-in-out;
     box-shadow: inset 0 0 0 1000px rgba(23,37,42,.7);
 }
-
+/* This removes the tint and changes colour on hover */
 .work-card:hover, .work-card:hover .work-label {
     border: 3px var(--tertiary-color-light) solid;
     color: var(--tertiary-color-light);
     background-color: var(--tertiary-color);
     box-shadow: none;
 }
-
+/* This is the project labels */
 .work-label {
     background-color: var(--tertiary-color-light);
     color: var(--tertiary-color);
@@ -156,6 +159,7 @@ footer {
     color: var(--secondary-color-light) !important;
 }
 
+/* Section to add requied functionality to button */
 .footer-btn {
     background-color: var(--primary-color) !important;
     color: var(--primary-color-light) !important;
@@ -166,7 +170,10 @@ footer {
 
 .footer-btn:hover {
     box-shadow: 0 0 2px 2px var(--secondary-color-light) !important;
+    color: var(--secondary-color-light) !important;
 }
+
+/* Media queries to neaten the about me section when resizing */
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .me-card {
