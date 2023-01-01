@@ -6,6 +6,15 @@ body {
     --secondary-color-light: #f2f2f2;
     --tertiary-color: #111111;
     --tertiary-color-light: #ffffff;
+    background-color: var(--primary-color-light);
+    border-radius: 0;
+    color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%
 }
 
 /* Main header for the page */
@@ -21,10 +30,16 @@ body {
 /* Items on nav bar */
 #main-nav a:hover {
     color: var(--primary-color-light);
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    border: 2px solid var(--primary-color-light);
 }
+
+/* Jumbotron */
+#jumbotron {
+    background-color: var(--primary-color);
+    border-radius: 0;
+    color: var(--primary-color-light);
+}
+
+/* Work section */
 
 .work-card {
     height: 300px;
@@ -64,4 +79,14 @@ body {
 
 #prework-study-guide {
     background-image: url("../images/Prework_Study_Guide.png");
+}
+
+/* Me section */
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-light);
+    height:40px;
+    margin-top: 10px;
 }
