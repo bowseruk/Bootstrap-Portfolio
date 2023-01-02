@@ -35,6 +35,10 @@ The website can be viewed at [https://bowseruk.github.io/bootstrap-portfolio/](h
 
 ## Credits
 
+This site uses [Bootcamp v4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+[Font Awesome](https://fontawesome.com/) is used for logos on the page.
+
 This site was based on a project by edX Boot Camps LLC.
 
 [W3School](https://www.w3schools.com/) was used as a reference for elements to use and good practice.
