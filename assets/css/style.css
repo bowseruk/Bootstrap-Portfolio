@@ -193,6 +193,9 @@ footer {
     border: none !important;
     box-shadow: none !important;
     margin: 2px 5px;
+    transition: all 0.5s ease-in-out;
+    /* round buttons */
+    border-radius: 50%;
 }
 
 .footer-btn:hover {
